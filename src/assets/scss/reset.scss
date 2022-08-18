@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 2em;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    background-color: transparent;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button,
+input {
+    overflow: visible;
+    all: unset;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    /* 2 */
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+}
+
+textarea {
+    overflow: auto;
+}
+
+fieldset,
+img {
+    border: 0 none;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+
+    p {
+        margin: 0;
+        padding: 0 0 0 0;
+    }
+}
+
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+*:focus {
+    outline: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0px;
+    outline: 0px;
+}
+
+button, select {
+    cursor: pointer;
+}
