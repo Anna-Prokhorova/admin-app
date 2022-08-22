@@ -152,7 +152,9 @@ export default {
       font-weight: 600;
     }
     &-text {
-      margin: 16px 0 32px 0;
+      margin: 16px 0 16px 0;
+      overflow: scroll;
+      height: 80px;
     }
     &-price {
       font-weight: 600;
